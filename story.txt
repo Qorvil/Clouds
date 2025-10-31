@@ -1,0 +1,50 @@
+Hey!!!
+
+Clouds is a chat app which I, along with my team, made for our school project for 12th grade. I had one month to make the project (2 weeks after procrastinating). I had this idea of creating a chat app since 11th grade and this project gave me the motivation to actually make it a reality. Also, the name "Clouds" just came to my mind one day, randomly.
+
+Clouds is a result of cumulative efforts of my team members, numerous headaches, and an existential crisis. It took a lot debugging to make some of the fuctions in this work (I am looking at you fetch_friends()).
+
+Also, the dropbox's API key expires every 4 hours. So, if u want a new key, just message me.
+
+--- MODULES USED IN THE PROGRAM ---
+Here comes the list of all the modules used in the project and their respective purposes...
+
+1. os : To ensure compatibility as some functions do not really work well on both Windows and Linux without tweaking them. Also for file handling stuff...
+2. tkinter : For the GUI, duh.
+3. datetime : To display the correct time of each message (and for logs).
+4. PIL (Pillow) : To resize images and to incorprate the cool splash screen.
+5. threading : This one module runs tasks in the background without stopping foreground stuff. So, basically, this is the backbone of the backend.
+6. hashlib : To assign colors to each email in a consistent way.
+7. requests : Sends HTTP requests to the servers.
+8. firebase_admin : for credential authentication, and firebase (the server where the messages and user info is saved at).
+9. dropbox : to save and render files
+
+Yup, these are it. Nine cool modules (which do not haunt me at all.....) bring together Clouds.
+
+--- LOGO AND SPLASHSCREEN ---
+Also, I made the splashscreen and the logo. I never thought the logo would turn out to be this clean. I have made many logos before (mainly for my games in Roblox), but none would come anywhere close to this one.
+The logo was made in Adobe Photoshop and the animated splash screen in Canva.
+I have used two distict fonts in the splashscreen as the letter 'l' of the first font was not really fitting the vibe I wanted. The fonts are "Hachi Maru Pop" for C, O, U, D, and S, and "Handlee" for the L. Also, the logo was orignally 512x512 pixels and I then had to change it to 500x500 for Canva support. I have made some upscaled versions too.
+
+--- EXTRA INFORMATION ---
+All the versions of the app are included in the folder "versions" to see the journey we had come through. All extra stuff, like the color pallete of the logo and the different sizes of the logo are included in the folder "extras".
+
+The folder "backed" contains the .JSON file which is essential to connect to Firebase. The folder"clouds-backend-venv" contains both bash and fish versions of the module activation script, so on Linux, you do not have to install all the modules yourself, you just have to activate them with the "source" command.
+
+--- MY THANKS ---
+I thank my teacher, Cinil Thomas, for his incredible guidance, without which this project wouldn't have been a thing. Also behemoth, massive, gargantuan gratitude toward my friend Elss Maria for her constant support in the project, as well as for managing all the essentials for Clouds and contributing in the project just as much as I have done. And last but also least, thank you to Adhitya and Adorn for "forgot about this" and "sorry, I was busy 🥲". This project would have been entirely possible even if u weren't in it :)
+
+
+
+
+
+On both Windows and Linux, this app can be run without changing its code (i.e. compatibility ensured).
+
+Installing dependencies on Windows / Linux can be done with:
+pip install pillow requests firebase-admin dropbox
+
+Just paste that into your terminal and all the dependencies will be installed. Then just open clouds.py
+
+
+
+We hope you will like Clouds.
