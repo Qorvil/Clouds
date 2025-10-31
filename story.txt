@@ -29,10 +29,10 @@ I have used two distict fonts in the splashscreen as the letter 'l' of the first
 --- EXTRA INFORMATION ---
 All the versions of the app are included in the folder "versions" to see the journey we had come through. All extra stuff, like the color pallete of the logo and the different sizes of the logo are included in the folder "extras".
 
-The folder "backed" contains the .JSON file which is essential to connect to Firebase. The folder"clouds-backend-venv" contains both bash and fish versions of the module activation script, so on Linux, you do not have to install all the modules yourself, you just have to activate them with the "source" command.
+The folder "backed" contains the .JSON file which is essential to connect to Firebase. The folder "clouds-backend-venv" contains both bash and fish versions of the module activation script, so on Linux, you do not have to install all the modules yourself, you just have to activate them with the "source" command.
 
 --- MY THANKS ---
-I thank my teacher, Cinil Thomas, for his incredible guidance, without which this project wouldn't have been a thing. Also behemoth, massive, gargantuan gratitude toward my friend Elss Maria for her constant support in the project, as well as for managing all the essentials for Clouds and contributing in the project just as much as I have done. And last but also least, thank you to Adhitya and Adorn for "forgot about this" and "sorry, I was busy 🥲". This project would have been entirely possible even if u weren't in it :)
+I thank my teacher, Cinil Thomas, for his incredible guidance, without which this project wouldn't have been a thing. Also behemoth, massive, gargantuan gratitude toward my lovely friend Elss Maria for her constant support in the project, as well as for managing all the essentials for Clouds and contributing in the project just as much as I have done. And last but also least, thank you to Adhitya and Adorn for "forgot about this" and "sorry, I was busy 🥲". This project would have been entirely possible even if u weren't in it :)
 
 
 
